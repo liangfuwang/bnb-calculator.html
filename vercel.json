@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/bnb-calculator.html" }
+  ],
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
+  ]
+}
